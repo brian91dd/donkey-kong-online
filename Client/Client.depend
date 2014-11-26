@@ -1,0 +1,556 @@
+# depslib dependency file v1.0
+1353194100 source:/home/lukas/Desktop/Client/cInstruction.cpp
+	"cInstruction.h"
+	<string>
+	<sstream>
+
+1353194100 /home/lukas/Desktop/Client/cInstruction.h
+	<string>
+	<vector>
+
+1353442928 source:/home/lukas/Desktop/Client/cKeyboard.cpp
+	"cKeyboard.h"
+	"cGame.h"
+	"cSafeQueue.h"
+	<SDL/SDL.h>
+	<unistd.h>
+
+1353194100 /home/lukas/Desktop/Client/cKeyboard.h
+	"cThread.h"
+	<string>
+
+1353053519 /home/lukas/Desktop/Client/cThread.h
+	<pthread.h>
+
+1412463818 /home/lukas/Desktop/Client/cGame.h
+	"cPlayer.h"
+	"cPlayerStats.h"
+	"cMapObject.h"
+	"cKeyboard.h"
+	"cTextFactory.h"
+	"cSafeQueue.h"
+	"cServerConn.h"
+	"cInstruction.h"
+	<map>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1412463790 /home/lukas/Desktop/Client/cPlayer.h
+	"cMapObject.h"
+	<string>
+	<SDL/SDL_image.h>
+
+1353776773 /home/lukas/Desktop/Client/cMapObject.h
+	<string>
+	<SDL/SDL_image.h>
+
+1353194100 /home/lukas/Desktop/Client/cPlayerStats.h
+	<string>
+
+1353442928 /home/lukas/Desktop/Client/cTextFactory.h
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<map>
+
+1353194100 /home/lukas/Desktop/Client/cSafeQueue.h
+	"cMutex.h"
+	"cLockableGuard.h"
+	<queue>
+
+1353194100 /home/lukas/Desktop/Client/cMutex.h
+	<pthread.h>
+
+1353194100 /home/lukas/Desktop/Client/cLockableGuard.h
+
+1353445927 /home/lukas/Desktop/Client/cServerConn.h
+	"cThread.h"
+	"cTCPSocket.h"
+	"cMutex.h"
+
+1353194100 /home/lukas/Desktop/Client/cTCPSocket.h
+	<string>
+	<netinet/in.h>
+
+1353311831 source:/home/lukas/Desktop/Client/cMapObject.cpp
+	"cMapObject.h"
+	<math.h>
+
+1353194100 source:/home/lukas/Desktop/Client/cMutex.cpp
+	"cMutex.h"
+
+1353776773 source:/home/lukas/Desktop/Client/cServerConn.cpp
+	"cServerConn.h"
+	"cInstruction.h"
+	"cTCPSocket.h"
+	"cSocketException.h"
+	"cSafeQueue.h"
+	"cLockableGuard.h"
+	<iostream>
+	<string>
+	<fstream>
+	<string.h>
+
+1353194100 /home/lukas/Desktop/Client/cSocketException.h
+	<exception>
+	<string>
+
+1353194100 source:/home/lukas/Desktop/Client/cSocketException.cpp
+	"cSocketException.h"
+	<string>
+	<sstream>
+	<errno.h>
+	<string.h>
+
+1353194100 source:/home/lukas/Desktop/Client/cTCPSocket.cpp
+	"cTCPSocket.h"
+	"cSocketException.h"
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<netdb.h>
+	<unistd.h>
+	<netinet/in.h>
+	<string.h>
+	<fstream>
+
+1353442928 source:/home/lukas/Desktop/Client/cTextFactory.cpp
+	"cTextFactory.h"
+	"md5.h"
+	<sstream>
+
+1353104818 /home/lukas/Desktop/Client/md5.h
+	<string>
+	<iostream>
+
+1353053519 source:/home/lukas/Desktop/Client/cThread.cpp
+	"cThread.h"
+	<pthread.h>
+
+1353442928 source:/home/lukas/Desktop/Client/main.cpp
+	"cGame.h"
+
+1353104818 source:/home/lukas/Desktop/Client/md5.cpp
+	<string>
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"md5.h"
+
+1353442930 source:/home/lukas/Desktop/DK WIP/cKeyboard.cpp
+	"cKeyboard.h"
+	"cGame.h"
+	"cSafeQueue.h"
+	<SDL/SDL.h>
+	<unistd.h>
+
+1353194102 /home/lukas/Desktop/DK WIP/cKeyboard.h
+	"cThread.h"
+	<string>
+
+1353053520 /home/lukas/Desktop/DK WIP/cThread.h
+	<pthread.h>
+
+1415485583 /home/lukas/Desktop/DK WIP/cGame.h
+	"Misc.h"
+	"cTextFactory.h"
+	"cPlayer.h"
+	"cSprite.h"
+	<map>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1353442930 /home/lukas/Desktop/DK WIP/cTextFactory.h
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<map>
+
+1353194102 /home/lukas/Desktop/DK WIP/cSafeQueue.h
+	"cMutex.h"
+	"cLockableGuard.h"
+	<queue>
+
+1353194102 /home/lukas/Desktop/DK WIP/cMutex.h
+	<pthread.h>
+
+1353194102 /home/lukas/Desktop/DK WIP/cLockableGuard.h
+
+1353194102 source:/home/lukas/Desktop/DK WIP/cMutex.cpp
+	"cMutex.h"
+
+1353442930 source:/home/lukas/Desktop/DK WIP/cTextFactory.cpp
+	"cTextFactory.h"
+	"md5.h"
+	<sstream>
+
+1353104820 /home/lukas/Desktop/DK WIP/md5.h
+	<string>
+	<iostream>
+
+1353053520 source:/home/lukas/Desktop/DK WIP/cThread.cpp
+	"cThread.h"
+	<pthread.h>
+
+1415215445 source:/home/lukas/Desktop/DK WIP/main.cpp
+	"cGame.h"
+
+1415479411 source:/home/lukas/Desktop/DK WIP/cGame.cpp
+	"cGame.h"
+	<SDL/SDL.h>
+	<unistd.h>
+
+1353445928 /home/lukas/Desktop/DK WIP/cServerConn.h
+	"cThread.h"
+	"cTCPSocket.h"
+	"cMutex.h"
+
+1353194102 /home/lukas/Desktop/DK WIP/cTCPSocket.h
+	<string>
+	<netinet/in.h>
+
+1415485433 /home/lukas/Desktop/DK WIP/Misc.h
+	<sstream>
+	<string>
+	<SDL/SDL.h>
+
+1415485528 source:/home/lukas/Desktop/DK WIP/cPlayer.cpp
+	"cPlayer.h"
+
+1415397027 /home/lukas/Desktop/DK WIP/cPlayer.h
+	"cBarrel.h"
+	"Misc.h"
+	<string>
+	<SDL/SDL_image.h>
+
+1415274152 /home/lukas/Desktop/DK WIP/cMapObject.h
+	<SDL/SDL_image.h>
+
+1353104820 source:/home/lukas/Desktop/DK WIP/md5.cpp
+	<string>
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"md5.h"
+
+1415274184 source:/home/lukas/Desktop/DK WIP/cMapObject.cpp
+	"cMapObject.h"
+	<math.h>
+	<string>
+
+1415392827 source:/home/lukas/Desktop/DK WIP/cSprite.cpp
+	"cSprite.h"
+
+1415392567 /home/lukas/Desktop/DK WIP/cSprite.h
+	<string>
+	<map>
+	<SDL/SDL_image.h>
+
+1415300210 /home/lukas/Desktop/DK WIP/cBarrel.h
+	"cSprite.h"
+	<SDL/SDL_image.h>
+
+1415300223 source:/home/lukas/Desktop/DK WIP/cBarrel.cpp
+	"cBarrel.h"
+	<math.h>
+	<string>
+
+1415300223 source:/home/lukas/Desktop/Cliente/cBarrel.cpp
+	"cBarrel.h"
+	<math.h>
+	<string>
+
+1415300210 /home/lukas/Desktop/Cliente/cBarrel.h
+	"cSprite.h"
+	<SDL/SDL_image.h>
+
+1415392567 /home/lukas/Desktop/Cliente/cSprite.h
+	<string>
+	<map>
+	<SDL/SDL_image.h>
+
+1353194102 source:/home/lukas/Desktop/Cliente/cMutex.cpp
+	"cMutex.h"
+
+1353194102 /home/lukas/Desktop/Cliente/cMutex.h
+	<pthread.h>
+
+1415492671 source:/home/lukas/Desktop/Cliente/cPlayer.cpp
+	"cPlayer.h"
+
+1415492653 /home/lukas/Desktop/Cliente/cPlayer.h
+	"cBarrel.h"
+	"Misc.h"
+	<string>
+	<SDL/SDL_image.h>
+
+1415490482 /home/lukas/Desktop/Cliente/Misc.h
+	<sstream>
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1415490702 source:/home/lukas/Desktop/Cliente/cSprite.cpp
+	"cSprite.h"
+	"Misc.h"
+
+1353442930 source:/home/lukas/Desktop/Cliente/cTextFactory.cpp
+	"cTextFactory.h"
+	"md5.h"
+	<sstream>
+
+1353442930 /home/lukas/Desktop/Cliente/cTextFactory.h
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<map>
+
+1353104820 /home/lukas/Desktop/Cliente/md5.h
+	<string>
+	<iostream>
+
+1353053520 source:/home/lukas/Desktop/Cliente/cThread.cpp
+	"cThread.h"
+	<pthread.h>
+
+1353053520 /home/lukas/Desktop/Cliente/cThread.h
+	<pthread.h>
+
+1415215445 source:/home/lukas/Desktop/Cliente/main.cpp
+	"cGame.h"
+
+1415488749 /home/lukas/Desktop/Cliente/cGame.h
+	"Misc.h"
+	"cTextFactory.h"
+	"cPlayer.h"
+	"cSprite.h"
+	<map>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1353104820 source:/home/lukas/Desktop/Cliente/md5.cpp
+	<string>
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"md5.h"
+
+1415492758 source:/home/lukas/Desktop/Cliente/cGame.cpp
+	"cGame.h"
+	<SDL/SDL.h>
+	<unistd.h>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cBarrel.cpp
+	"cBarrel.h"
+	<string>
+	<stdlib.h>
+	<time.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cBarrel.h
+	"Misc.h"
+	"cSprite.h"
+	<SDL/SDL_image.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cSprite.h
+	<string>
+	<map>
+	<SDL/SDL_image.h>
+
+1416677728 source:/home/lukas/Desktop/SVN/TP4/Client/cGame.cpp
+	"cGame.h"
+	<SDL/SDL.h>
+	<unistd.h>
+	<cmath>
+
+1416673980 /home/lukas/Desktop/SVN/TP4/Client/cGame.h
+	"Misc.h"
+	"cTextFactory.h"
+	"cButton.h"
+	"cPlayer.h"
+	"cSprite.h"
+	"cOil.h"
+	"cPauline.h"
+	"cDonkeyKong.h"
+	"cServerConn.h"
+	"cSafeQueue.h"
+	"cInstruction.h"
+	"cPlayerStats.h"
+	<map>
+	<list>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/Misc.h
+	<sstream>
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cTextFactory.h
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	<map>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cPlayer.h
+	"cBarrel.h"
+	"Misc.h"
+	<string>
+	<SDL/SDL_image.h>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cMutex.cpp
+	"cMutex.h"
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cMutex.h
+	<pthread.h>
+
+1416665142 source:/home/lukas/Desktop/SVN/TP4/Client/cPlayer.cpp
+	"cPlayer.h"
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cSprite.cpp
+	"cSprite.h"
+	"Misc.h"
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cTextFactory.cpp
+	"cTextFactory.h"
+	"md5.h"
+	<sstream>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/md5.h
+	<string>
+	<iostream>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cThread.cpp
+	"cThread.h"
+	<pthread.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cThread.h
+	<pthread.h>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/main.cpp
+	"cGame.h"
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/md5.cpp
+	<string>
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"md5.h"
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cDonkeyKong.cpp
+	"cDonkeyKong.h"
+	"Misc.h"
+	<string>
+	<cstdlib>
+	<time.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cDonkeyKong.h
+	"cSprite.h"
+	"cBarrel.h"
+	<SDL/SDL_image.h>
+	<list>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cFlame.cpp
+	"cFlame.h"
+	<string>
+	<stdlib.h>
+	<time.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cFlame.h
+	"Misc.h"
+	"cSprite.h"
+	<SDL/SDL_image.h>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cPauline.cpp
+	"cPauline.h"
+	"Misc.h"
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cPauline.h
+	"Misc.h"
+	"cSprite.h"
+	<SDL/SDL_image.h>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cOil.cpp
+	"cOil.h"
+	"Misc.h"
+	<string>
+	<cstdlib>
+	<time.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cOil.h
+	"cSprite.h"
+	"cFlame.h"
+	<SDL/SDL_image.h>
+	<list>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cButton.cpp
+	"cButton.h"
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cButton.h
+	<SDL/SDL.h>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cInstruction.cpp
+	"cInstruction.h"
+	<string>
+	<sstream>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cInstruction.h
+	<string>
+	<vector>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cServerConn.cpp
+	"cServerConn.h"
+	"cInstruction.h"
+	"cTCPSocket.h"
+	"cSocketException.h"
+	"cSafeQueue.h"
+	"cLockableGuard.h"
+	<iostream>
+	<string>
+	<fstream>
+	<string.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cServerConn.h
+	"cThread.h"
+	"cTCPSocket.h"
+	"cMutex.h"
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cTCPSocket.h
+	<string>
+	<netinet/in.h>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cSocketException.h
+	<exception>
+	<string>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cSafeQueue.h
+	"cMutex.h"
+	"cLockableGuard.h"
+	<queue>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cLockableGuard.h
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cSocketException.cpp
+	"cSocketException.h"
+	<string>
+	<sstream>
+	<errno.h>
+	<string.h>
+
+1416577342 source:/home/lukas/Desktop/SVN/TP4/Client/cTCPSocket.cpp
+	"cTCPSocket.h"
+	"cSocketException.h"
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<netdb.h>
+	<unistd.h>
+	<netinet/in.h>
+	<string.h>
+	<fstream>
+
+1416577342 /home/lukas/Desktop/SVN/TP4/Client/cPlayerStats.h
+	<string>
+

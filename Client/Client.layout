@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Misc.h" open="0" top="0" tabpos="5">
+		<Cursor position="2853" topLine="91" />
+	</File>
+	<File name="cBarrel.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="401" topLine="0" />
+	</File>
+	<File name="cBarrel.h" open="0" top="0" tabpos="5">
+		<Cursor position="486" topLine="9" />
+	</File>
+	<File name="cButton.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="387" topLine="0" />
+	</File>
+	<File name="cButton.h" open="0" top="0" tabpos="0">
+		<Cursor position="177" topLine="0" />
+	</File>
+	<File name="cDonkeyKong.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="2966" topLine="90" />
+	</File>
+	<File name="cDonkeyKong.h" open="0" top="0" tabpos="6">
+		<Cursor position="247" topLine="0" />
+	</File>
+	<File name="cFlame.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1435" topLine="26" />
+	</File>
+	<File name="cFlame.h" open="0" top="0" tabpos="0">
+		<Cursor position="183" topLine="0" />
+	</File>
+	<File name="cGame.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="cGame.h" open="0" top="0" tabpos="2">
+		<Cursor position="1609" topLine="49" />
+	</File>
+	<File name="cInstruction.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="161" topLine="0" />
+	</File>
+	<File name="cInstruction.h" open="0" top="0" tabpos="0">
+		<Cursor position="100" topLine="0" />
+	</File>
+	<File name="cLockableGuard.h" open="0" top="0" tabpos="0">
+		<Cursor position="151" topLine="5" />
+	</File>
+	<File name="cOil.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="2759" topLine="60" />
+	</File>
+	<File name="cOil.h" open="0" top="0" tabpos="0">
+		<Cursor position="221" topLine="0" />
+	</File>
+	<File name="cPlayer.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="607" topLine="3" />
+	</File>
+	<File name="cPlayer.h" open="0" top="0" tabpos="4">
+		<Cursor position="147" topLine="0" />
+	</File>
+	<File name="cPlayerStats.h" open="0" top="0" tabpos="0">
+		<Cursor position="230" topLine="0" />
+	</File>
+	<File name="cSafeQueue.h" open="0" top="0" tabpos="0">
+		<Cursor position="514" topLine="13" />
+	</File>
+	<File name="cServerConn.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3186" topLine="99" />
+	</File>
+	<File name="cServerConn.h" open="0" top="0" tabpos="0">
+		<Cursor position="499" topLine="0" />
+	</File>
+	<File name="cSprite.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="564" topLine="10" />
+	</File>
+	<File name="cSprite.h" open="0" top="0" tabpos="8">
+		<Cursor position="154" topLine="0" />
+	</File>
+	<File name="cTextFactory.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="463" topLine="0" />
+	</File>
+	<File name="cTextFactory.h" open="0" top="0" tabpos="0">
+		<Cursor position="485" topLine="0" />
+	</File>
+	<File name="cThread.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="378" topLine="0" />
+	</File>
+	<File name="cThread.h" open="0" top="0" tabpos="0">
+		<Cursor position="157" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="358" topLine="0" />
+	</File>
+	<File name="md5.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="250" topLine="51" />
+	</File>
+</CodeBlocks_layout_file>
